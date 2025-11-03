@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 50px 0;
+            background-color: #f9f9f9;
+            background-image: url('background.jpg');
+            background-size: cover;  
+        }
+        h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .video-container {
+            display: inline-block; 
+        }
+
+        iframe {
+            width: 800px;
+            height: 500px;
+            border: none;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: 1px solid #999;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #fff;
+        }
+
+        button:hover {
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <h1>My favorite video</h1>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/AMcVJmb5mvk" allowfullscreen></iframe>
+    </div>
+    <br>
+    <button onclick="location.href='main.html'">Back to main</button>
+</body>
+</html>
