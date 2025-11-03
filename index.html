@@ -7,22 +7,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 
   <style> 
-      @font-face {
+    @font-face {
       font-family: 'Circular Std';
       src: local('Circular Std'), local('CircularStd'),
-           url('CircularStd-Bold.woff2') format('woff2');
+           url('./CircularStd-Bold.woff2') format('woff2');
       font-weight: 700;
     }
     body {
-      background-image: url('background.jpg');
-      background-size: cover;         
+      background-image: url('./background.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
       font-family: 'Circular Std', 'Montserrat', Arial, sans-serif;
-      color: black;                    
+      color: black;
       text-align: center;
       padding-top: 50px;
+      min-height: 100vh;
     }
     a {
-      color: black;                 
+      color: black;
       text-decoration: none;
       font-size: 40px;
       display: inline-block;
@@ -44,8 +47,8 @@
   <h1>My Favorite Links</h1>
   <hr>
   <a href="https://ecampus.tu.ac.kr/" target="_blank">Ecampus</a><br>
-  <a href="favorite.html" target="_blank">This is my favorite website</a><br>
-  <a href="class-schedule.html" target="_blank">My class schedule</a><br>
-  <a href="video-site.html" target="_blank">Favorite youtube video</a><br>
+  <a href="./favorite.html">This is my favorite website</a><br>
+  <a href="./class-schedule.html">My class schedule</a><br>
+  <a href="./video-site.html">Favorite youtube video</a><br>
 </body>
 </html>
